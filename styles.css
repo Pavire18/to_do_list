@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(135deg, #E2B0FF 10%, #9F44D3 100%);
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    height: 725px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 500px;
+    max-width: 400px;
+    padding: 10px;
+}
+.form_data{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.tarea{
+    border: 0;
+    border-bottom: 1px solid gray;
+    margin-right: 15px;
+    font-size: 18px;
+}
+.btn_add{
+    background-color: rgba(240, 46, 170);
+    color: white;
+    border: 0;
+    padding: 10px;
+    font-size: 13px;
+}
+.btn_add:hover{
+    background-color: rgb(147, 19, 100);;
+}
+.titulo{
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px 0px rgba(240, 46, 170, 1);
+}
+.result_container{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.tarea_container{
+    width: 100%;
+}
+
+.tarea{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn_remove{
+    background-color: #953bfb;
+    color: white;
+}
